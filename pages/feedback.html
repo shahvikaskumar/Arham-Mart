@@ -1,0 +1,65 @@
+<!-- Link to the form.css stylesheet -->
+<link rel="stylesheet" href="../css/form.css">
+
+<!-- Container div -->
+<div class="container">
+    <!-- Table for structuring the form -->
+    <table>
+        <!-- Feedback form -->
+        <form id="feedform" onsubmit="parent.validate_feedback_form(event)">
+            <thead>
+                <!-- Heading for the feedback form -->
+                <tr>
+                    <th colspan="3">
+                        <h1>Feedback Form</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Row for customer name input -->
+                <tr>
+                    <td>
+                        <label for="name">Customer Name</label>
+                    </td>
+                    <td>:-</td>
+                    <td>
+                        <input type="text" name="name" id="name"
+                            placeholder="Customer Name" />
+                    </td>
+                </tr>
+
+                <!-- Row for feedback reason input -->
+                <tr>
+                    <td>
+                        <label for="reason" class="header">Feedback
+                            Reason</label>
+                    </td>
+                    <td>:-</td>
+                    <td>
+                        <input type="text" name="reason" id="reason"
+                            placeholder="Feedback Reason" />
+                    </td>
+                </tr>
+
+                <!-- Row for feedback message input -->
+                <tr>
+                    <td>
+                        <label for="message">Message</label>
+                    </td>
+                    <td>:-</td>
+                    <td>
+                        <textarea type="text" name="message" id="message"
+                            placeholder="Message"></textarea>
+                    </td>
+                </tr>
+
+                <!-- Row for submit button -->
+                <tr>
+                    <td colspan="3">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+</div>

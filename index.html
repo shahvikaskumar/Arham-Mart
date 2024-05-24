@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title of the page -->
+        <title>Arham Mart</title>
+        <!-- Favicon for the website -->
+        <link rel="icon" type="image/x-icon" href="./Images/favicon.png">
+        <!-- Link to the external stylesheet -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Script tag for the external JavaScript file with 'defer' attribute -->
+        <script src="../js/validate.js" defer></script>
+    </head>
+    <body>
+        <!-- Header section -->
+        <header class="header">
+            <img class="logo" src="./Images/Logo.png" alt="logo">
+            <h1>ARHAM MART</h1>
+        </header>
+        <!-- Main content section -->
+        <main class="main">
+            <!-- Menu section -->
+            <section class="menu">
+                <!-- Navigation menu -->
+                <nav>
+                    <ul>
+                        <!-- Home link -->
+                        <li>
+                            <a href="./pages/home.html" class="active"
+                                target="content">Home</a>
+                        </li>
+                        <!-- Items link -->
+                        <li>
+                            <a href="./pages/Items.html" class
+                                target="content">Items</a>
+                        </li>
+                        <!-- Seller Registration link -->
+                        <li>
+                            <a href="./pages/seller_Registration.html"
+                                target="content">Seller
+                                Registration</a>
+                        </li>
+                        <!-- Feedback link -->
+                        <li>
+                            <a href="./pages/feedback.html"
+                                target="content">Feedback</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <!-- Content section where pages will be loaded -->
+            <section class="content">
+                <!-- Iframe to load pages -->
+                <iframe name="content" id="content"
+                    src="./pages/home.html"></iframe>
+            </section>
+        </main>
+    </body>
+</html>

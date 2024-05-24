@@ -1,0 +1,66 @@
+<!-- Link to the form.css stylesheet -->
+<link rel="stylesheet" href="../css/form.css">
+
+<!-- Container div -->
+<div class="container">
+    <!-- Table for structuring the form -->
+    <table>
+        <!-- Seller registration form -->
+        <form id="sellerform" onsubmit="parent.validate_seller_form(event)">
+            <thead>
+                <!-- Heading for the seller registration form -->
+                <tr>
+                    <th colspan="3">
+                        <h1>Seller registration</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!-- Row for seller name input -->
+                <tr>
+                    <td>
+                        <label for="name">Seller Name</label>
+                    </td>
+                    <td>:-</td>
+                    <td>
+                        <input type="text" name="name" id="name"
+                            placeholder="Seller Name" />
+                    </td>
+                </tr>
+
+                <!-- Row for phone number input -->
+                <tr>
+                    <td>
+                        <label for="phoneno">Phone Number
+                        </label>
+                    </td>
+                    <td>:-</td>
+                    <td>
+                        <input type="tel" name="phoneno" id="phoneno"
+                            placeholder="Phone no" />
+                    </td>
+                </tr>
+
+                <!-- Row for address input -->
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>:-</td>
+                    <td>
+                        <textarea type="text" name="address" id="address"
+                            placeholder="Address"></textarea>
+                    </td>
+                </tr>
+
+                <!-- Row for submit button -->
+                <tr>
+                    <td colspan="3">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+</div>

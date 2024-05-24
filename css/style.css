@@ -1,0 +1,99 @@
+/* Resetting default margin and padding for all elements */
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5vw;
+    width: 100vw;
+    height: 10vh;    
+    background-color:black; 
+    text-align: center;
+}
+
+/* Styling for the logo */
+.logo{    
+    height: 7vh;
+    margin: 1.5vh 0vw;    
+}
+
+/* Styling for the name of company heading */
+h1{
+    font-family:cursive ;
+    color:lightgreen;    
+}
+
+/* Styling for the main section */
+.main{
+    width: 100vw;
+    height: 90vh;
+    font-size: 0;   
+}
+
+/* Styling for the menu section */
+.menu{
+    display: inline-block;
+    width: 20vw;
+    background-color:orangered;    
+    height: 90vh;
+    overflow: hidden;    
+    font-size: 3vmin;
+}
+
+/* Styling for the content section */
+.content{
+    display: inline-block;    
+    width: 80vw;
+    height: 90vh;    
+    overflow: hidden;
+    font-size: 3vmin;
+}
+
+/* Styling for the iframe */
+iframe{
+    border: none;
+    height: 90vh;
+    width: 80vw;
+}
+
+/* Styling for the navigation menu */
+nav ul{
+    margin: 0;
+    padding: 2vh 0vw;
+    list-style-type: none;    
+}
+
+/* Styling for the list items in the navigation menu */
+ul li{    
+    padding: 2vh 0vw;    
+}
+
+/* Styling for the links in the navigation menu */
+ul li a{
+    text-decoration: none;
+    width: 20vw;
+    display: inline-block;
+    padding: 2vh 3vw;
+    font-weight: bold;
+    font-size: 3.5vmin;
+    color: white;   
+}
+
+/* Styling for the links on hover */
+ul li a:hover{
+    background-color:yellow;
+    color: black;
+}
+
+/* Styling for the Active Link */
+.active{
+    background-color: yellow;
+    color: black;        
+}

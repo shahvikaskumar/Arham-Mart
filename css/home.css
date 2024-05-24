@@ -1,0 +1,12 @@
+/* Styling for the h1 element */
+h1{
+    text-align: center;
+    margin: 7vh 3vw;
+} 
+
+/* Styling for the p element */
+p{
+    margin: 0vh 5vw;
+    text-align: justify;
+    font-size: 3vmin;
+}
